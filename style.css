@@ -22,8 +22,8 @@ header {
       margin-bottom: 50px;
     }
   }
-  /*1366px*/
-  @media (width <= 85.375rem) {
+
+  @media (min-width: 80rem) and (max-width: 87.5rem) {
     h1 {
       font-size: 16px;
       margin-bottom: 50px;
@@ -42,8 +42,7 @@ main {
     align-items: flex-start;
   }
 
-  /*1366px*/
-  @media (width <= 85.375rem) {
+  @media (min-width: 80rem) and (max-width: 87.5rem) {
     display: flex;
     align-items: flex-start;
   }
@@ -64,7 +63,7 @@ main {
     flex-direction: column;
   }
 
-  @media (width <= 85.375rem) {
+  @media (min-width: 80rem) and (max-width: 87.5rem) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +88,7 @@ main {
     width: 900px;
     height: 100px;
   }
-  @media (width <= 85.375rem) {
+  @media (min-width: 80rem) and (max-width: 87.5rem) {
     width: 900px;
     height: 100px;
   }
@@ -112,7 +111,7 @@ main {
     height: 100%;
   }
 
-  @media (width <= 85.375rem) {
+  @media (min-width: 80rem) and (max-width: 87.5rem) {
     width: 900px;
     height: 100%;
   }
